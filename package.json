@@ -1,9 +1,24 @@
 {
+    "author": {
+        "name": "Adam Sage"
+    },
+    "bugs": {
+        "url": "https://github.com/atsage/node-red-contrib-PN532/issues"
+    },
     "name": "node-red-contrib-PN532",
     "version": "0.0.1",
     "description": "Inject RFID card UID into a flow",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/atsage/node-red-contrib-PN532"
+    },
     "keywords": [
-        "node-red"
+        "node-red",
+        "PN532",
+        "RFID",
+        "MIFARE",
+        "13.56MHz"
     ],
     "node-red": {
         "nodes": {
