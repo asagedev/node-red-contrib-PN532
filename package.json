@@ -5,7 +5,7 @@
     "bugs": {
         "url": "https://github.com/atsage/node-red-contrib-PN532/issues"
     },
-    "name": "node-red-contrib-PN532",
+    "name": "node-red-contrib-pn532",
     "version": "0.0.1",
     "description": "Inject RFID card UID into a flow",
     "license": "MIT",
