@@ -1,55 +1,28 @@
 {
-  "_from": "node-red-contrib-pn532",
-  "_id": "node-red-contrib-pn532@0.0.2",
-  "_inBundle": false,
-  "_integrity": "sha512-Hgrn3q6Als2Re6PJVUMG7UgmzCqcfWNOjwffUMC9GmOu6b2PgETjyHyzhbMhAgqnz63FM8xM/oDcIR8R2+jrOg==",
-  "_location": "/node-red-contrib-pn532",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "node-red-contrib-pn532",
+    "author": {
+        "name": "Adam Sage"
+    },
+    "bugs": {
+        "url": "https://github.com/atsage/node-red-contrib-PN532/issues"
+    },
     "name": "node-red-contrib-pn532",
-    "escapedName": "node-red-contrib-pn532",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/node-red-contrib-pn532/-/node-red-contrib-pn532-0.0.2.tgz",
-  "_shasum": "15682304afbe8d29d2dfcc2f7c75ad6abd7d6373",
-  "_spec": "node-red-contrib-pn532",
-  "_where": "/home/pi/.node-red",
-  "author": {
-    "name": "Adam Sage"
-  },
-  "bugs": {
-    "url": "https://github.com/atsage/node-red-contrib-PN532/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "Inject RFID card UID into a flow",
-  "homepage": "https://github.com/atsage/node-red-contrib-PN532#readme",
-  "keywords": [
-    "node-red",
-    "PN532",
-    "RFID",
-    "MIFARE",
-    "13.56MHz"
-  ],
-  "license": "MIT",
-  "name": "node-red-contrib-pn532",
-  "node-red": {
-    "nodes": {
-      "PN532": "PN532/PN532.js"
+    "version": "0.0.3",
+    "description": "Inject RFID card UID into a flow",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/atsage/node-red-contrib-PN532"
+    },
+    "keywords": [
+        "node-red",
+        "PN532",
+        "RFID",
+        "MIFARE",
+        "13.56MHz"
+    ],
+    "node-red": {
+        "nodes": {
+            "PN532": "PN532/PN532.js"
+        }
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atsage/node-red-contrib-PN532.git"
-  },
-  "version": "0.0.2"
 }
